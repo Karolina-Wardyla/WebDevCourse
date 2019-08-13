@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Three different paragraphs where one changes its styles when hovering the mouse pointer over. -->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 2 - Day 5</title>
+  <style>
+    html {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 500px;
+      font-size: 1.5em;
+    }
+
+    p.italic {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      color: yellow;
+      background-color: black;
+      text-align: justify;
+    }
+
+    p+p+p {
+      font-style: italic;
+      text-align: center;
+    }
+
+    p.italic:hover {
+      color: green;
+      background-color: grey;
+      text-decoration: underline;
+      line-height: 200%;
+    }
+
+  </style>
+</head>
+
+<body>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eius dolorem harum, optio vero quos voluptates adipisci aliquid quaerat architecto? Sint sequi quia ratione dolor magnam quos, fugiat unde quisquam.</p>
+  <p class="italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit aliquid qui accusamus dicta illum modi, cumque velit nisi voluptatibus repudiandae nulla libero ab mollitia, maiores recusandae hic. Sit, dolore, ab!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, rem excepturi mollitia impedit distinctio accusantium reprehenderit aut quasi saepe praesentium laborum alias eius quia reiciendis quidem sequi. Aperiam, voluptatem inventore!</p>
+</body>
+
+</html>
